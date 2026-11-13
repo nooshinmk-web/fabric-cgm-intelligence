@@ -1,0 +1,16 @@
+# CGM Analytics and Alerting Requirements
+
+## Daily AGP Reporting
+
+- Generate an Ambulatory Glucose Profile (AGP) for each patient using the previous 14 days of CGM readings.
+- Refresh the reports daily in Microsoft Fabric.
+- Provide a Power BI dashboard with clinic-level summaries.
+
+## Real-Time Glucose Monitoring
+
+- Display the latest CGM reading for each monitored patient in a Fabric Real-Time Dashboard.
+- Record test alerts within 60 seconds of the triggering reading arriving in Fabric.
+
+## Development Data
+
+- Use synthetic CGM readings and patient identifiers.
